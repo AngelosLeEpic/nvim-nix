@@ -3,6 +3,8 @@ vim.loader.enable()
 local cmd = vim.cmd
 local opt = vim.o
 
+-- initial colorscheme
+vim.cmd.colorscheme("vague")
 -- <leader> key. Defaults to `\`. Some people prefer space.
 -- The default leader is '\'. Some people prefer <space>. Uncomment this if you do, too.
 -- vim.g.mapleader = ' '
