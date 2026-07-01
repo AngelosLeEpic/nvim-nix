@@ -87,6 +87,10 @@ with final.pkgs.lib; let
     # Aesthetics
     tokyonight-nvim
     vague-nvim
+    
+    # extra functionalities
+    nui-nvim
+    leetcode-nvim
 
   ];
 
